@@ -7,36 +7,42 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info text-white">
-      <a class="navbar-brand" href="#">My CV</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+      <a class="navbar-brand px-2 text-white" href="#name">Juan Silva</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <div class="collapse navbar-collapse text-light" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#profile">Perfil<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#comp">Competencias<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#formation">Formación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#exp">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ref">Referencias</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <input class="form-control mr-sm-2 text-white" type="search" placeholder="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
     </nav>
   </header>
-  <section>
-    <div class="container">
+  <section id="name">
+    <div class="">
       <div class="row">
         <div class="col-12">
-          <div class="jumbotron bg-info text-white">
-            <img class="col-3 d-inline " src="https://avatars2.githubusercontent.com/u/52308574?s=460&u=d323a61eed2ccc8179cfea6b5ea19bbc83d6d28b&v=4" class="card-img" alt="...">
+          <div class="jumbotron bg-info text-white text-center align-items-center">
+            <img class="col-3 d-inline " src="https://scontent.fbog4-1.fna.fbcdn.net/v/t1.0-9/89046447_647439989424634_746856858148405248_o.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_eui2=AeH-NICnoTqsAataoDjWE97PUWPajIzi-upRY9qMjOL66vUPOFn_s9-qTQcGcrI8w99_ncdbmryP2TZpavho5X4v&_nc_ohc=reUf82Bd5ZwAX86Keit&_nc_ht=scontent.fbog4-1.fna&oh=6ef880626e9b8c2ef4871563dfdded70&oe=5ED92102" class="card-img" alt="...">
             <h1 class="display-6 col-10 d-inline">Juan Sebastian Silva Vanegas</h1>
             <hr class="my-3">
             <p class="lead text-center"><i>"La vida es como el código, entre mas organizado es, mas fácil es de entender..."</i></p>
@@ -46,7 +52,7 @@
     </div>
   </section>
   <br class="my-2">
-  <section>
+  <section id="profile">
     <div class="container">
       <div class="row">
         <div class="col-4 align-self-center">
@@ -109,7 +115,7 @@
     </div>
   </section>
   <br class="my-2">
-  <section>
+  <section id="comp">
     <div class="container">
       <div class="row">
         <div class="col-8 align-self-center">
@@ -163,7 +169,7 @@
       </div>
   </section>
   <br class="my-2">
-  <section>
+  <section id="formation">
     <div class="container">
       <div class="row">
         <div class="col-12 align-self-center">
@@ -229,28 +235,52 @@
     </div>
   </section>
   <br class="my-2">
-  <section>
+  <section id="exp">
     <div class="container">
       <div class="row">
         <div class="col">
           <div class="card bg-info">
             <div class="row no-gutters">
-              <div class="col-10 align-self-center">
+              <div class="col-12 align-self-center">
                 <div class="card-body">
-                  <h5 class="card-title text-white">Estudios Complementarios</h5>
+                  <h5 class="card-title text-white">Experiencia</h5>
                   <div class="">
                     <ul class="list-group">
                       <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Certificación en herramientas de diseño y desarrollo web y móvil (Android) - (Fedesoft - Piensa Digital)
-                        <span class="badge badge-primary badge-pill">2018</span>
+                        <div class="col-2">
+                          Proy & Con Ingenieria
+                        </div>
+                        <div class="col-3">
+                          <p class="card-text"><small class="text-muted">Auxiliar de Ingeniería en diseño y desarrollo de software.</small></p>
+                        </div>
+                        <div class="col-4">
+                          <p class="card-text"><small class="text-muted">Propuestas de sistema de datos para manejo de información (Excel, Matlab, Java, JavaScript), diseño modelo matemático a implementar en conjunto de directivos, diseño de interfaz gráfica para el usuario, diseño del algoritmo a implementar, desarrollo de software en múltiples plataformas, actualización y ajustes al modelo matemático a implementar, pruebas de calidad.</small></p>
+                        </div>
+                        <span class="badge badge-primary badge-pill">06/2017 - Actualidad</span>
                       </li>
                       <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Preparación para certificación CCNA - Universidad Santo Tomás
-                        <span class="badge badge-primary badge-pill">2018 - 2019</span>
+                        <div class="col-2">
+                          Universidad Santo Tomás
+                        </div>
+                        <div class="col-3">
+                          <p class="card-text"><small class="text-muted">7 monitorias académicas en el área de programación</small></p>
+                        </div>
+                        <div class="col-4">
+                          <p class="card-text"><small class="text-muted">Tutorías, desarrollo de aplicativos (Android, Java, JavaScript, C++, C, VBA), supervisión y revisión de proyectos finales, clases magistrales, trabajo en equipo.</small></p>
+                        </div>
+                        <span class="badge badge-primary badge-pill">08/2016 - 12/2019</span>
                       </li>
                       <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Preparación para certificación ITIL V3 - Universidad Santo Tomás
-                        <span class="badge badge-primary badge-pill">2018</span>
+                        <div class="col-2">
+                          Pago Interactivo
+                        </div>
+                        <div class="col-3">
+                          <p class="card-text"><small class="text-muted">Auxiliar de instalación de sistemas operativos y direccionamiento de red.</small></p>
+                        </div>
+                        <div class="col-4">
+                          <p class="card-text"><small class="text-muted">Instalación de sistema operativo en los equipos, licenciamiento de equipos, direccionamiento de equipos de la red corporativa.</small></p>
+                        </div>
+                        <span class="badge badge-primary badge-pill">03/2017 - 03/2017</span>
                       </li>
                     </ul>
                   </div>
@@ -258,13 +288,84 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br class="my-2">
+  <section id="ref">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card bg-info text-center align-items-center">
+            <div class="container">
+              <h5 class="card-title text-white text-center py-3">Referencias</h5>
+            </div>
+            <div class="">
+              <div class="row">
+                <div class="col-4 align-self-center">
+                  <div class="">
+                    <div class="card border-info mb-3" style="max-width: 18rem;">
+                      <div class="card-header bg-transparent border-info">Andrés Mauricio Vanegas</div>
+                      <div class="card-body">
+                        <h5 class="card-title">Tupago</h5>
+                        <p class="card-text">Ingeniero de Telecomunicaciones.</p>
+                      </div>
+                      <div class="card-footer bg-transparent border-info">3006090xxx</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4 align-self-center">
+                  <div class="">
+                    <div class="card border-info mb-3" style="max-width: 18rem;">
+                      <div class="card-header bg-transparent border-info">Luciano Castañeda</div>
+                      <div class="card-body">
+                        <h5 class="card-title">Proy & Con Ingenieria</h5>
+                        <p class="card-text">Ingeniero Civil</p>
+                      </div>
+                      <div class="card-footer bg-transparent border-info">3104810xxx</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4 align-self-center">
+                  <div class="">
+                    <div class="card border-info mb-3" style="max-width: 18rem;">
+                      <div class="card-header bg-transparent border-info">Jesús Guzmán</div>
+                      <div class="card-body">
+                        <h5 class="card-title">Universidad Santo Tomás</h5>
+                        <p class="card-text">Ingeniero de Sistemas.</p>
+                      </div>
+                      <div class="card-footer bg-transparent border-info">3152275xxx</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
-
       </div>
 
     </div>
   </section>
+  <br class="my-2">
+  <footer class="">
+    <div class="bg-info">
+      <div class="row">
+        <div class="col-12">
+          <div class="jumbotron bg-info text-white text-center align-items-center">
+            <h1 class="display-6 col-12 d-inline">Contacto</h1>
+            <br class="my-2">
+            <h6 class="display-6 col-12 d-inline">Correo:</h6> <a class="text-white" href="mailto:juan.silva.vane@gmail.com">juan.silva.vane@gmail.com</a>
+            <br class="my-2">
+            <h6 class="display-6 col-12 d-inline">Celular:</h6> <a class="text-white" href="tel:+57-350-575-1762">+57-3505751762</a>
+            <br class="my-2">
+            <h6 class="display-6 col-12 d-inline">LinkedIn:</h6> <a class="text-white" href="https://www.linkedin.com/in/juan-sebastian-silva-vanegas/" target="_blank">Juan Silva</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
